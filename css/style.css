@@ -28,15 +28,15 @@
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 header {
-  border-bottom: 1px solid var(--line-color);
+    border-bottom: 1px solid var(--line-color);
 }
 
 .navbar {
-  margin: 0 160px;
+    margin: 0 160px;
 }
 
 header .navbar{
@@ -45,6 +45,24 @@ header .navbar{
     padding: 24px 0;
     align-items: center;
 }
+
+.logo img {
+    width: 400px;
+    height: auto;
+    display: block;
+}
+
+.kurv img {
+    width: auto;
+    height: 56px;
+    display: block;
+}
+
+.kurv {
+    padding: 12px 0px 12px 12px;
+}
+
+
 
 .hero {
     background-image: url("../img/hero.png");
