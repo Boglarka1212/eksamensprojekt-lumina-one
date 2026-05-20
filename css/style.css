@@ -7,6 +7,24 @@
 :root {
     /* Typografi */
     --font-family: "Poppins", sans-serif;
+    --titel-1: 40px;
+    --titel-2: 32px;
+    --titel-3: 24px;
+    --bread-1: 16px;
+    --bread-2: 12px;
+
+    /* font weight */
+    --weight-semibold: 600;
+    --weight-regular: 400;
+
+    /* Farver */
+    --background: rgba(250, 249, 247, 1);
+    --box-color: rgba(242, 238, 231, 1);
+    --figur-color: rgba(239, 233, 228, 1);
+    --line-color: rgba(206, 146, 157, 1);
+    --cta-1: rgba(255, 38, 147, 1);
+    --cta-2: rgba(68, 48, 52, 1);
+    --font-color: rgba(34, 24, 26, 1);
 }
 
 header .navbar{
