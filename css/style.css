@@ -27,6 +27,10 @@
     --font-color: rgba(34, 24, 26, 1);
 }
 
+body {
+    margin: 0 160px;
+}
+
 header .navbar{
     display: flex;
     justify-content: space-between;
