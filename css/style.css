@@ -54,15 +54,18 @@ header .navbar{
 
 .kurv img {
     width: auto;
-    height: 56px;
+    height: 48px;
     display: block;
 }
 
 .kurv {
     padding: 12px 0px 12px 12px;
+    transition: transform 0.2s ease;
 }
 
-
+.kurv:hover {
+    transform: scale(1.2);
+}
 
 .hero {
     background-image: url("../img/hero.png");
