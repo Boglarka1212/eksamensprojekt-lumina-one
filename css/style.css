@@ -1,27 +1,12 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
 :root {
-    /* Farver */
-    --dusty-rose: rgba(217, 149, 162, 1);
-    --sage-green: rgba(143, 163, 131, 1);
-    --dark-green: rgba(118, 149, 105, 1);
-    --light-rose: rgba(250, 226, 230, 1);
-    --white: #ffffff;
-    --black: #000;
-
-    /* typografi */
-    --font-family: "Bricolage Grotesque", sans-serif;
-    --font-size-titel-2: 38px;
-    --font-size-titel-3: 32px;
-    --font-size-broed: 28px;
-    --font-size-broed-2: 20px;
-    --font-size-broed-3: 16px;
-
-    /* font weight */
-    --font-weight-extra-light: 200;
-    --font-weight-regular: 400;
-    --font-weight-semibold: 500;
-    --font-weight-bold: 700;
-    --font-weight-extra-bold: 800;
-
+    /* Typografi */
+    --font-family: "Poppins", sans-serif;
 }
 
 header .navbar{
