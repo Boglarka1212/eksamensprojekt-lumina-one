@@ -68,7 +68,25 @@ header .navbar{
 }
 
 .hero {
+    display: flex;
+}
 
+/* fyld 50/50 */
+.hero-content, .hero-img {
+    flex: 1;
+}
+
+/* content står i række */
+.hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* billede fylder containeren ud */
+.hero-img img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
