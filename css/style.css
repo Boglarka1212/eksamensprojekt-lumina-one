@@ -1,6 +1,6 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -29,6 +29,7 @@
 
 body {
   margin: 0;
+  font-family: var(--font-family);
 }
 
 
@@ -158,29 +159,36 @@ figcaption {
     transform: scale(1.05);
 }
 
-.slideshow {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 20px;
+
+
+/* INFO BAR */
+.info-bar {
+    border-bottom: 1px solid var(--line-color);
+    border-top: 1px solid var(--line-color);
 }
 
-.slideshow img {
-  width: 100%;
+.info-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 160px;
+    list-style: none;
 }
 
-/* reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
-/* Generelle font regler */
-body {
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-regular);
+.info-item img {
+    height: 68px;
+    width: auto;
 }
+
+
+
 /* Produktblad med beskrivelse */
 /* Venstre side */
 .nr1 {
