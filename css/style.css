@@ -99,6 +99,21 @@ header .navbar{
     display: block;
 }
 
+/* Trustpilot linje */
+.hero-trustpilot {
+    display: flex;
+    gap: 8px;
+}
+
+.star {
+    width: 16px;
+}
+
+figcaption {
+    font-size: var(--bread-2);
+}
+
+
 
 .slideshow{
     width: 100%;
