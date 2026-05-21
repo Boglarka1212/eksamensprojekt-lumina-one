@@ -68,61 +68,9 @@ header .navbar{
 }
 
 .hero {
-    background-image: url("../img/hero.png");
-    background-color: #ffffff; 
-    height: 600px; 
-    background-position: right;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 100px;
-    font-family: var(--font-family);
-    margin-bottom: 10px;
-}
-.hero #lumina-one {
-    width: 20%;
-}
-.hero p {
-    font-size: var(--font-size-broed);
-    margin: 16px 0;
-}
-.hero .buttons {
-  border: none;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  border-radius: 50px;
-  font-size: var(--font-size-broed);
-  padding: 10px 50px;
+
 }
 
-.hero #read-more {
-  background-color: white; 
-  color: var(--dark-green);
-  border: 2px solid var(--dark-green);
-}
-
-.hero #read-more:hover {
-  background-color: var(--dark-green);
-  color: white;
-  cursor: pointer;
-  transform: translateY(-2px);
-}
-
-.hero #buy-now {
-  background-color: var(--dark-green); 
-  color: white;
-  border: var(--dark-green); 
-  padding: 10px 70px;
-}
-
-.hero #buy-now:hover {
-  background-color:  rgb(72, 99, 62);
-  cursor: pointer;
-  transform: translateY(-2px);
-}
 
 .slideshow{
     width: 100%;
