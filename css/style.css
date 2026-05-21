@@ -100,6 +100,16 @@ header .navbar {
   display: block;
 }
 
+/* Logo og trustpilot linjen - mindre gap her */
+.product-name span {
+    font-size: var(--bread-1);
+    font-weight: var(--weight-semibold);
+}
+
+.logo-trustpilot {
+    gap: 8px;
+}
+
 /* Trustpilot linje */
 .hero-trustpilot {
   display: flex;
