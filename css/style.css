@@ -34,8 +34,14 @@ body {
   font-weight: var(--weight-regular);
 }
 
+h3 {
+    font-size: var(--titel-2);
+    font-weight: var(--weight-semibold);
+}
 
-
+.layout-margin {
+    margin: 80px 160px;
+}
 
 /* NAV-BAR */
 
@@ -182,6 +188,40 @@ figcaption {
     width: auto;
 }
 
+
+
+/* TIL ENHVER LEJLIGHED */
+
+
+.occasion {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+    background-color: var(--box-color);
+    gap: 40px;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.occasion-box {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.occasion-item {
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.occasion-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+}
 
 
 /* Afsnit om social og connect */
