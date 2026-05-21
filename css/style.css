@@ -30,6 +30,8 @@
 body {
   margin: 0;
   font-family: var(--font-family);
+  font-size: var(--bread-1);
+  font-weight: var(--weight-regular);
 }
 
 
@@ -103,7 +105,6 @@ header .navbar {
 
 /* Logo og trustpilot linjen - mindre gap her */
 .product-name span {
-    font-size: var(--bread-1);
     font-weight: var(--weight-semibold);
 }
 
@@ -123,18 +124,12 @@ header .navbar {
 
 figcaption {
   font-size: var(--bread-2);
-  font-weight: var(--weight-regular);
 }
 
 /* Hero tekst */
 .hero-titel {
   font-size: var(--titel-1);
   font-weight: var(--weight-semibold);
-}
-
-.hero-text {
-  font-size: var(--bread-1);
-  font-weight: var(--weight-regular);
 }
 
 
