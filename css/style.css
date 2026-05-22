@@ -56,13 +56,13 @@ header {
 header .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0;
+  padding: 8px 0;
   align-items: center;
 }
 
 .logo img {
-  width: 400px;
-  height: auto;
+  width: auto;
+  height: 48px;
   display: block;
 }
 
@@ -73,7 +73,7 @@ header .navbar {
 }
 
 .kurv {
-  padding: 12px 0px 12px 12px;
+  padding: 0px 0px 0px 12px;
   transition: transform 0.2s ease;
 }
 
@@ -145,9 +145,9 @@ figcaption {
     background-color: var(--cta-1);
     color: var(--background);
     font-size: var(--titel-3);
-    font-weight: 700;
+    font-weight: 600;
     width: 240px;
-    padding: 8px 0px;
+    padding: 16px 8px;
     display: flex;
     justify-content: center;
     align-items: center;
