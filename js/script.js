@@ -52,13 +52,16 @@ function showFeatures() {
       "beforeend",
       `
         <article class="cause">
-          <h3>${feature.title}</h3>
-          <p>${feature.text}</p>
+          <section class="cause-text">
+            <h3>${feature.title}</h3>
+            <p>${feature.text}</p>
+          </section>
+          
           <figure class="cause-img">
             <img src="${feature.image}" alt="${feature.caption}">
           </figure>
         </article>
-      `
+      `,
     );
   }
 }
