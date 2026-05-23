@@ -43,3 +43,22 @@ const features = [
 /* Finder pladsen til cards i dommen, elementet der hedder feature-list */
 const featureList = document.getElementById("feature-list");
 
+/* Funktionen, der skriver feature cards ud */
+function showFeatures() {
+
+  /* loop starter her - og indsæt html i featureList */
+  for (const feature of features) {
+    featureList.insertAdjacentHTML(
+      "beforeend",
+      `
+        <article class="cause">
+          <h3>${feature.title}</h3>
+          <p>${feature.text}</p>
+          <figure class="cause-img">
+            <img src="${feature.image}" alt="${feature.caption}">
+          </figure>
+        </article>
+      `
+    );
+  }
+}
