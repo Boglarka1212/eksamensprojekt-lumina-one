@@ -224,6 +224,37 @@ figcaption {
 }
 
 
+
+
+/* FEATURE CARDS */
+.cause {
+  display: inline-flex;
+  gap: 24px;
+  padding: 24px;
+  background-color: var(--box-color);
+  border-radius: 16px;
+}
+
+.cause-text {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 24px;
+}
+
+.cause-text h3 {
+  font-size: var(--titel-3);
+  font-weight: var(--weight-semibold);
+}
+
+.cause-img img {
+  width: 200px;
+  border-radius: 16px;
+
+}
+
+
+
 /* Afsnit om social og connect */
 /* Øverste tekst */
 .nr2 {
