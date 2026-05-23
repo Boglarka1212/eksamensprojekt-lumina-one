@@ -224,6 +224,35 @@ figcaption {
 }
 
 
+/* FEATURE SEKTION */
+.choose-lumina {
+  margin: 0 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* gør hvert card til flexbox, lodret */
+.causes {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styrer den vandrette placering - hhv de lige og ulige "child" */
+.cause:nth-child(odd) {
+  align-self: flex-end;
+}
+
+.cause:nth-child(even) {
+  align-self: flex-start;
+}
+
+.choose-lumina h2 {
+  display: flex;
+  justify-content: center;
+  font-size: var(--titel-2);
+  font-weight: var(--weight-semibold);
+}
 
 
 /* FEATURE CARDS */
@@ -233,6 +262,7 @@ figcaption {
   padding: 24px;
   background-color: var(--box-color);
   border-radius: 16px;
+  width: fit-content;
 }
 
 .cause-text {
