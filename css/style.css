@@ -241,6 +241,11 @@ figcaption {
 .causes {
   display: flex;
   flex-direction: column;
+
+  /* Bølget s-kurve i baggrunden */
+  background-image: url("../img/s-kurve.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /* Styrer den vandrette placering - hhv de lige og ulige "child" */
