@@ -175,6 +175,7 @@ figcaption {
 .info-bar {
     border-bottom: 1px solid var(--line-color);
     border-top: 1px solid var(--line-color);
+    background-color: #fff;
 }
 
 .info-list {
