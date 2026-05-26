@@ -32,6 +32,7 @@ body {
   font-family: var(--font-family);
   font-size: var(--bread-1);
   font-weight: var(--weight-regular);
+  background-color: var(--background);
 }
 
 h3 {
