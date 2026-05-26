@@ -169,6 +169,11 @@ figcaption {
     transform: scale(1.05);
 }
 
+/* Andet cta design */
+.cta-2 {
+  background-color: rgba(68, 48, 52, 1);
+}
+
 
 
 /* INFO BAR */
