@@ -1,5 +1,8 @@
 "use strict";
 
+
+
+/* DE 6 FEATURE CARDS */
 const features = [
   {
     title: "1. Holder hele dagen",
@@ -66,3 +69,35 @@ function showFeatures() {
   }
 }
 showFeatures();
+
+
+
+
+/* UDFORSK FARVERNE */
+/* Finder billedet og alle farveknapperne i dommen */
+const colorImg = document.querySelector(".color-img");
+const colorButtons = document.querySelectorAll(".color-btn");
+
+/* Luminas farver */
+const luminaCorlors = [
+  {
+    color: "lavender-mist",
+    image: "img/lumina-lavender.png",
+    alt: "Lumina lavender mist",
+  },
+  {
+    color: "sage-green",
+    image: "img/lumina-green.png",
+    alt: "Lumina sage green",
+  },
+  {
+    color: "dusty-rose",
+    image: "img/lumina-pink.png",
+    alt: "Lumina dusty rose",
+  },
+  {
+    color: "moonlight-white",
+    image: "img/lumina-white.png",
+    alt: "Lumina moonlight white",
+  },
+];
