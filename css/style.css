@@ -198,7 +198,7 @@ figcaption {
 /* TIL ENHVER LEJLIGHED */
 
 
-.occasion {
+.occasion, .choose-colors {
     display: flex;
     flex-direction: column;
     padding: 40px 80px;
@@ -284,6 +284,55 @@ figcaption {
   width: 200px;
   border-radius: 16px;
 
+}
+
+
+
+/* UDFORSK LUMINAS FARVER */
+/* Billedets størrelse */
+.lumina-color, .color-img {
+  display: flex;
+  width: 400px;
+  border-radius: 16px;
+}
+
+/* farveknapper */
+.color-buttons {
+  display: flex;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.color-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  border: 2px solid;
+}
+
+.lavender-mist {
+ background-color: rgba(223, 214, 233, 1);
+ border-color: rgba(138, 129, 148, 1);
+}
+
+.sage-green {
+  background-color: rgba(196, 211, 189, 1);
+  border-color: rgba(111, 126, 104, 1);
+}
+
+.dusty-rose {
+  background-color: rgba(222, 182, 189, 1);
+  border-color: rgba(137, 97, 104, 1);
+}
+
+.moonlight-white {
+  background-color: rgba(237, 232, 223, 1);
+  border-color: rgba(152, 147, 138, 1);
+}
+
+.on{
+  width: 56px;
+  height: 56px;
 }
 
 
