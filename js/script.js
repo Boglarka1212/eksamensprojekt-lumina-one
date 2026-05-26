@@ -101,3 +101,8 @@ const luminaCorlors = [
     alt: "Lumina moonlight white",
   },
 ];
+
+/* Gå igennem knapperne en af gangen - Når der klikkes, skal funktionen changeColor køre */
+for (const btn of colorButtons) {
+  btn.addEventListener("click", changeColor);
+}
