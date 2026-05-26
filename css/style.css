@@ -198,10 +198,8 @@ figcaption {
 
 
 
-/* TIL ENHVER LEJLIGHED */
-
-
-.occasion, .choose-colors {
+/* TIL ENHVER LEJLIGHED, UDFORSK FARVER OG CONNECT */
+.occasion, .choose-colors, .connect {
     display: flex;
     flex-direction: column;
     padding: 40px 80px;
@@ -211,20 +209,20 @@ figcaption {
     border-radius: 16px;
 }
 
-.occasion-box {
+.occasion-box, .connect-box {
     display: flex;
     gap: 40px;
     justify-content: center;
 }
 
-.occasion-item {
+.occasion-item, .connect-item {
     display: flex;
     flex: 0 0 50%;
     flex-direction: column;
     gap: 40px;
 }
 
-.occasion-item img {
+.occasion-item img, .connect-item img {
     width: 100%;
     height: auto;
     display: block;
