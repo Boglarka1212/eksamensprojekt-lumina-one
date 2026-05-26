@@ -82,12 +82,12 @@ const colorButtons = document.querySelectorAll(".color-btn");
 const luminaCorlors = [
   {
     color: "lavender-mist",
-    image: "img/lumina-lavender.png",
+    image: "img/lumina-lilla.png",
     alt: "Lumina lavender mist",
   },
   {
     color: "sage-green",
-    image: "img/lumina-green.png",
+    image: "img/lumina-groen.png",
     alt: "Lumina sage green",
   },
   {
@@ -97,7 +97,7 @@ const luminaCorlors = [
   },
   {
     color: "moonlight-white",
-    image: "img/lumina-white.png",
+    image: "img/lumina-hvid.png",
     alt: "Lumina moonlight white",
   },
 ];
@@ -105,4 +105,30 @@ const luminaCorlors = [
 /* Gå igennem knapperne en af gangen - Når der klikkes, skal funktionen changeColor køre */
 for (const btn of colorButtons) {
   btn.addEventListener("click", changeColor);
+}
+
+//Funktionen der kører, når der klikkes på en farveknap
+function changeColor(event) {
+
+/* knappen, som brugeren klikker på registreres -
+den valgte knaps farve hentes fra html data-color */
+  const clickedBtn = event.currentTarget;
+  const chosenColor = clickedBtn.dataset.color;
+
+  //den valgte farve findes i arrayet luminaColors
+  const chosenLumina = luminaCorlors.find(function (lumina) {
+    return lumina.color === chosenColor;
+  });
+
+  /* Skifter billedet til det valgte farves billede -
+  og det´s billedets alt-tekst */
+  colorImg.src = chosenLumina.image;
+  colorImg.alt = chosenLumina.alt;
+
+  //Fjerner "on"-classen fra alle knapper og tilføjer den til clickedBtn
+  for (const btn of colorButtons) {
+    btn.classList.remove("on");
+  }
+
+  clickedBtn.classList.add("on");
 }
