@@ -155,7 +155,7 @@ for (const detail of details) {
     "beforeend",
   `
     <article class="detail">
-      <h4>${detail.title}</h4>
+      <h3>${detail.title}</h3>
       <p>${detail.text}</p>
     </article>
   `

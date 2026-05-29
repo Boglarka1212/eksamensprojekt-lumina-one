@@ -35,14 +35,14 @@ body {
   background-color: var(--background);
 }
 
-h3 {
-    font-size: var(--titel-3);
-    font-weight: var(--weight-semibold);
-}
-
 h2 {
   font-size: var(--titel-2);
   font-weight: var(--weight-semibold);
+}
+
+h3 {
+    font-size: var(--titel-3);
+    font-weight: var(--weight-semibold);
 }
 
 .layout-margin {
@@ -205,7 +205,7 @@ figcaption {
 
 
 
-/* TIL ENHVER LEJLIGHED, UDFORSK FARVER OG CONNECT */
+/* TIL ENHVER LEJLIGHED, UDFORSK FARVER, CONNECT og DETALJER */
 .occasion, .choose-colors, .connect {
     display: flex;
     flex-direction: column;
@@ -216,20 +216,20 @@ figcaption {
     border-radius: 16px;
 }
 
-.occasion-box, .connect-box {
+.occasion-box, .connect-box, .detail-box {
     display: flex;
     gap: 40px;
     justify-content: center;
 }
 
-.occasion-item, .connect-item {
+.occasion-item, .connect-item, .detail-item {
     display: flex;
     flex: 0 0 50%;
     flex-direction: column;
     gap: 40px;
 }
 
-.occasion-item img, .connect-item img {
+.occasion-item img, .connect-item img, .detail-item img {
     width: 100%;
     height: auto;
     display: block;
@@ -340,6 +340,27 @@ figcaption {
 .on{
   width: 56px;
   height: 56px;
+}
+
+
+
+/* DETALJE SEKTION */
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.details h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details h2 span {
+  font-size: var(--titel-3);
+  font-weight: var(--weight-regular);
 }
 
 
