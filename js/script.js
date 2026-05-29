@@ -132,3 +132,29 @@ den valgte knaps farve hentes fra html data-color */
 
   clickedBtn.classList.add("on");
 }
+
+
+
+
+/* DETALJE SEKTION */
+/* Detalje teksterne */
+const details = [
+  {
+    title: "Lyd & stemning",
+    text: "Op til 100 dB, ambient-lys med chill, party og sunset mode samt diskret LED-lys, der følger musikken.",
+  },
+  {
+    title: "Design & bærbarhed",
+    text: "Kun 3 kg, med stof tote-bag, bløde former og stofbeklædt front. Fås i Dusty Rose, Sage Green, Moonlight White og Lavender Mist.",
+  },
+  {
+    title: "Batteri & tilslutning",
+    text: "Op til 18 timers spilletid, USB-C opladning, batteriindikator via LED/app, Bluetooth 5.3 og AUX-indgang.",
+  },
+  {
+    title: "Social & udendørs",
+    text: "Blend playlister via appen, par op til 3 andre enheder og tag den med ud — IPX5 vandafvisende mod let regn og pool-splash.",
+  },
+];
+
+
