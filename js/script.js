@@ -1,7 +1,5 @@
 "use strict";
 
-
-
 /* DE 6 FEATURE CARDS */
 const features = [
   {
@@ -42,13 +40,11 @@ const features = [
   },
 ];
 
-
 /* Finder pladsen til cards i dommen, elementet der hedder feature-list */
 const featureList = document.getElementById("feature-list");
 
 /* Funktionen, der skriver feature cards ud */
 function showFeatures() {
-
   /* loop starter her - og indsæt html i featureList */
   for (const feature of features) {
     featureList.insertAdjacentHTML(
@@ -69,9 +65,6 @@ function showFeatures() {
   }
 }
 showFeatures();
-
-
-
 
 /* UDFORSK FARVERNE */
 /* Finder billedet og alle farveknapperne i dommen */
@@ -109,8 +102,7 @@ for (const btn of colorButtons) {
 
 //Funktionen der kører, når der klikkes på en farveknap
 function changeColor(event) {
-
-/* knappen, som brugeren klikker på registreres -
+  /* knappen, som brugeren klikker på registreres -
 den valgte knaps farve hentes fra html data-color */
   const clickedBtn = event.currentTarget;
   const chosenColor = clickedBtn.dataset.color;
@@ -133,9 +125,6 @@ den valgte knaps farve hentes fra html data-color */
   clickedBtn.classList.add("on");
 }
 
-
-
-
 /* DETALJE SEKTION */
 /* Detalje teksterne */
 const details = [
@@ -157,4 +146,18 @@ const details = [
   },
 ];
 
+/* Finder pladsen til detaljerne i dommen */
+const detailContent = document.querySelector("#detail-content");
 
+/* for-of loop starter her. for hver element fra details indsættes html før slutningen af detailContent */
+for (const detail of details) {
+  detailContent.insertAdjacentHTML(
+    "beforeend",
+  `
+    <article class="detail">
+      <h4>${detail.title}</h4>
+      <p>${detail.text}</p>
+    </article>
+  `
+  );
+}
