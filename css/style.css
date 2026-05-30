@@ -136,7 +136,7 @@ header .navbar {
   width: 16px;
 }
 
-figcaption {
+.hero-trustpilot figcaption {
   font-size: var(--bread-2);
 }
 
